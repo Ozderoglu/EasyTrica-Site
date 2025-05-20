@@ -1,2 +1,2 @@
-# EasyTrica-Site
+# easytrica-site
 Web-Site
