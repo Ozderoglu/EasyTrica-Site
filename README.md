@@ -1,0 +1,2 @@
+# EasyTrica-Site
+Web-Site
