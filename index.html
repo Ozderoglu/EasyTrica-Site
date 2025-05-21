@@ -7,7 +7,6 @@
   <title>Easytrica</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Tailwind renklerini override etmek için ek CSS */
     .bg-orange-custom { background-color: #F97316; }
     .text-gray-custom { color: #4B5563; }
     .hover-bg-orange-dark:hover { background-color: #c75c0b; }
@@ -18,12 +17,15 @@
   <header class="bg-orange-custom text-white p-6 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center">
-       <img src="data:image/png;base64,[buraya-base64-kodu]" alt="Easytrica Logo" style="height: 128px;" />
+        <!-- Base64 Logo burada gelecek -->
+        <img
+          src="data:image/png;base64,[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAIAAAC5V9cXAAABGUlEQVR4nO3PAQ0AAAgDoJvc+FOWiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...
+]" alt="Easytrica Logo" class="h-32" />
       </div>
       <a
-  href="#contact"
-  class="bg-orange-custom text-white font-semibold px-4 py-2 rounded hover:bg-orange-600 transition"
-  >İletişim</a
+        href="#contact"
+        class="bg-white text-orange-custom font-semibold px-4 py-2 rounded hover-bg-orange-dark transition"
+        >İletişim</a
       >
     </div>
   </header>
@@ -118,4 +120,3 @@
   </footer>
 </body>
 </html>
-
